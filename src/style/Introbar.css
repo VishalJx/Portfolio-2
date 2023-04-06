@@ -1,0 +1,108 @@
+.intro-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100%;
+}
+.intro-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    height:60%;
+}
+.intro-img{
+    border: 1px solid black;
+    border-radius: 30rem;
+    width:10rem;
+    height:10rem;
+    background-color: #94163e;
+    box-shadow: rgb(7, 5, 5) 0px 0px 2px 1px;
+}
+.name h3{
+    color:white;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.developer p{
+    font-size: 1.2rem;
+    color: rgb(219, 219, 219);
+    font-weight: 500;
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    margin-top: 1rem;
+}
+.social-icons li{
+    font-size: 2rem;
+    color: rgb(187, 187, 187);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+#linkedin:hover{
+    color: #0059ff;
+}
+#github:hover{
+    color: #646464;
+}
+#twitter:hover{
+    color: #2cacfc;
+}
+.resume{
+    padding:0.5rem 1.5rem;
+    background-color: #94163e;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+}
+.resume:hover{
+    background-color: #ff1a63;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+
+/* MEDIA-QUERIES FURTHER*/
+
+
+/* //tablet landscape */
+@media screen and (min-width: 1024px) and (max-width: 1600px)  {
+
+}
+
+/* //tablet portrait */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+    html{
+        font-size: 60.5%;
+    }
+    .intro-bar{
+        justify-content: center;
+        height:100%;
+    }
+    .intro-top{
+        height:40%;
+    }
+}
+
+
+/* //smartphone landscape */
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+    html{
+        font-size: 55.5%;
+    }
+}
+
+
+
+/* //smartphone portrait */
+@media screen and (min-width: 320px)
+and (max-width: 479px) {
+    html{
+        font-size: 50.5%;
+    }
+
+}

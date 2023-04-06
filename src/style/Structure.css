@@ -1,0 +1,39 @@
+.bg-page{
+    background-color:#510a32;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-page{
+    background-color:#2d142c;
+    height:75vh;
+    width:70vw;
+    border-radius: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+.intro-div{
+    height:inherit;
+    width:35%;
+    border-radius: 2rem 0 0 2rem;
+}
+.mid-section{
+    border: 1px solid black;
+    height:inherit;
+    width:70%;
+    background-color: white;
+    border-radius: 2rem; 
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.mid-section::-webkit-scrollbar{
+    width:0rem;
+}
+.nav-div{
+    position: relative;
+    width: 0%;
+    left:2rem;
+}
