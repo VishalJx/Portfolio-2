@@ -16,7 +16,7 @@ function About(){
   return (
     <div className="about" id="about">
       <div className="about-head" style={{display:"flex",alignItems:"center"}}>
-        <h1>About Me</h1><BsPersonFill style={{color:"#c90505", fontSize:"2.3rem",paddingLeft:"0.5rem"}}></BsPersonFill>
+        <h1>About Me</h1><BsPersonFill style={{color:"", fontSize:"2.3rem",paddingLeft:"0.5rem"}}></BsPersonFill>
       </div>
       <div className="about-p" style={{textAlign:"justify",marginBottom:"0.5rem"}}>
         <p>I am a sophomore and a Full Stack developer from IIIT-Bhopal. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Apart from webdev, I also love to explore the domain of Cybersecurity and AI.</p>

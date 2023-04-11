@@ -1,15 +1,19 @@
 .about{
     height: inherit;
-    padding:0.8rem 3rem;
-    margin-top: 3rem;
+    padding:4rem 0.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:2rem;
+    /* margin: 2rem; */
+    background-image: url("../resources/about.jpg");
+    background-size: cover;
 }
 .about-p{
+    font-weight: 600;
     width:35rem;
+    color: rgb(77, 15, 30);
 }
 ::selection{
     background-color: #aa3a3a;
@@ -21,6 +25,8 @@
     gap:1.3rem;
 }
 .frontend , .backend , .others{
+    background-color: white;
+    color:black;
     overflow: hidden;
     display: flex;
     flex-direction: column;

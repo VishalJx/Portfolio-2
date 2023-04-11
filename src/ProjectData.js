@@ -41,7 +41,7 @@ export const ProjectData = [
     },
     {
         name:"Emotion",
-        description:"",
+        description:" lkrnfrfroibtoi jrbckrbvoitv rnconvcitovnti klndxlkdnxlekx ldknxenrciornciorb oedjxpoeinlkrc jkcbrbc",
         image:emotion,
         dLink:"",
         gLink:"",
