@@ -10,7 +10,7 @@
 }
 .navbar:hover{
     transform: scale(1.05);
-    transition: 0.4s ease-out;
+    transition: 0.4s ease-in-out;
 }
 .nav-icons{
     list-style-type: none;

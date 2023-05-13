@@ -1,20 +1,25 @@
 .contact-container{
-    padding-top: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: rgb(233, 232, 232);
+    margin-top: 4rem;
+
 }
 .contact{
-    height: inherit;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
     gap:2rem
 }
 .blob-area{
     position: relative;
+    z-index: 2;
 }
 .blob{
     width:30rem;
-    height: 35rem;
+    height: 34rem;
     border-radius:30% 70% 57% 43% / 42% 30% 70% 58%;
     background: rgb(218,96,196);
     background: linear-gradient(0deg, rgba(218,96,196,1) 22%, rgba(255,83,107,1) 95%);
@@ -26,7 +31,7 @@
     justify-content: center;
     align-items: center;
     gap:2rem;
-    top:7rem;
+    top:6rem;
     left:3rem;
 }
 .form > h1{
@@ -63,6 +68,7 @@ textarea::-webkit-scrollbar{
 .info{
     width:22rem;
     height: 20rem;
+    z-index: 2;
 }
 .info p{
     font-size: 1.2rem;
@@ -80,6 +86,7 @@ textarea::-webkit-scrollbar{
 /* MEDIA-QUERIES FURTHER*/
 
 
+
 /* //tablet landscape */
 @media screen and (min-width: 1024px) and (max-width: 1600px)  {
 
@@ -90,14 +97,13 @@ textarea::-webkit-scrollbar{
     html{
         font-size: 60.5%;
     }
-    .contact{
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .contact-container{
         margin-top: 4rem;
-        gap:5rem
+    }
+    .contact{
+        flex-direction: column;
+        gap:4rem;
+        margin-top: 5rem;
     }
 }
 
@@ -106,6 +112,10 @@ textarea::-webkit-scrollbar{
 @media screen and (min-width: 480px) and (max-width: 767px)  {
     html{
         font-size: 55.5%;
+    }
+    .contact{
+        flex-direction: column;
+        gap:4rem
     }
 }
 

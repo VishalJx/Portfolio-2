@@ -9,39 +9,39 @@ import chat from "./resources/chat.jpg";
 export const ProjectData = [
     {
         name:"Chat-US",
-        description:"loremvrvt tvntnt jckeckwendcew jc jwkecjek inbcierbcrjekc bcnkjweckrb kjbfrbfi5ubfir jrkbfbrbfioglerkbvker krjfbklbfiorblerkvnkefbvlkfnvf my nm ri sviwblcwdkc",
+        description:"Chat US is a MERN Stack chatting application built using socket io.",
         image:chat,
-        dLink:"",
-        gLink:"",
+        dLink:"https://chat-us.onrender.com",
+        gLink:"https://github.com/VishalJx/Chat-Us",
         techUser:[]
     },
     {
         name:"Devfolio",
-        description:"",
+        description:"My first personal web portfolio built using ReactJS.",
         image:portfolio,
-        dLink:"",
-        gLink:"",
+        dLink:"https://vishaljx.netlify.app/",
+        gLink:"https://github.com/VishalJx/Devfolio",
         techUser:[]
     },
     {
         name:"Insta-Clone",
-        description:"",
+        description:"Clone of instagram with some basic features like follow, unfollow, like, unlike, comment, post, delete post, etc.",
         image:insta,
-        dLink:"",
-        gLink:"",
+        dLink:"https://thankful-shorts-tuna.cyclic.app/signup",
+        gLink:"https://github.com/VishalJx/Instagram_Clone_Website",
         techUser:[]
     },
     {
         name:"Book-CRUD",
-        description:"",
+        description:"This is a basic MERN stack website made to understand the concept of CRUD i.e. Create; Read; Update and Delete operations and their implementation using REST API.",
         image:book,
-        dLink:"",
-        gLink:"",
+        dLink:"https://book-crud-app.onrender.com/",
+        gLink:"https://github.com/VishalJx/Book-CRUD",
         techUser:[]
     },
     {
         name:"Emotion",
-        description:" lkrnfrfroibtoi jrbckrbvoitv rnconvcitovnti klndxlkdnxlekx ldknxenrciornciorb oedjxpoeinlkrc jkcbrbc",
+        description:"Terminal based emotion detection application built using python.",
         image:emotion,
         dLink:"",
         gLink:"",

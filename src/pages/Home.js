@@ -20,7 +20,7 @@ function Home(){
                 }}
               />
       </div>
-      <div className="icon-scroll"></div>    
+      <div className="icon-scroll"></div> 
     </div>
   )
 };

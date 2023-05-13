@@ -1,17 +1,9 @@
-import React,{useEffect} from "react";
+import React from "react";
 import "../style/About.css";
 import { BsPersonFill } from "react-icons/bs";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 function About(){
-
-  useEffect(() => {
-    Aos.init({
-      duration:2000,
-    });
-  },[]);
-
 
   return (
     <div className="about" id="about">
@@ -22,7 +14,7 @@ function About(){
         <p>I am a sophomore and a Full Stack developer from IIIT-Bhopal. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Apart from webdev, I also love to explore the domain of Cybersecurity and AI.</p>
       </div>
       <div className="skills" >
-        <div className="frontend" data-aos="left">
+        <div className="frontend">
           <h3>Frontend</h3>
           <div style={{display:"flex",gap:"2rem",padding:"0.5rem 0.3rem"}}>
             <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/javascript-3521515-2945018.png?f=avif&w=128"/>JavaScript</span>
@@ -32,7 +24,7 @@ function About(){
             <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/bootstrap-3628663-3029888.png?f=avif&w=128"/>Bootstrap</span>
           </div>
         </div>
-        <div className="backend" data-aos="right">
+        <div className="backend">
         <h3>Backend</h3>
           <div style={{display:"flex",gap:"2rem",padding:"0.5rem 0.3rem"}}>
             <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/node-js-1-1174935.png?f=avif&w=128"/>NodeJS</span>
@@ -40,11 +32,11 @@ function About(){
             <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/mongodb-4-1175139.png?f=avif&w=128"/>MongoDB</span>
           </div>
         </div>
-          <div className="others" data-aos="left">
+          <div className="others">
           <h3>Other</h3>
             <div style={{display:"flex",gap:"2rem",padding:"0.5rem 0.3rem"}}>
-              <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/github-1521500-1288242.png?f=avif&w=128"/>NodeJS</span>
-              <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/adobe-photoshop-4238646-3516519.png?f=avif&w=128"/>NodeJS</span>
+              <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/github-1521500-1288242.png?f=avif&w=128"/>Github</span>
+              <span><img className="skill-imgs" alt='none' src="https://cdn.iconscout.com/icon/free/png-256/adobe-photoshop-4238646-3516519.png?f=avif&w=128"/>Photoshop</span>
             </div>
           </div>
       </div>

@@ -6,8 +6,10 @@
     position: relative;
     justify-content: center;
     background-image: url("../resources/home.jpg");
-    background-size: cover;
     background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .intro{
     display: flex;
@@ -18,14 +20,14 @@
 }
 #intro2{
     font-size: 5rem; 
-    color:#fff3dc;
+    color:#f8f6f3;
     font-weight: bold;
     text-shadow: 2px 4px 8px rgb(63, 61, 61);
     margin:0.2rem;
     margin-left: 0.7rem;
 }
 #intro1{
-    color:rgb(248, 201, 158);
+    color:rgb(248, 177, 110);
     font-size: 4rem; 
     font-weight: bold;
     margin:0.2rem;
@@ -37,7 +39,7 @@
     font-stretch: ultra-condensed;
     font-weight: bolder;
     padding: 1px;
-    color: rgb(255, 194, 64);
+    color: rgb(252, 251, 250);
 }
 .icon-scroll,
 .icon-scroll:before{  
@@ -60,7 +62,7 @@
   background: #fdbe49;
   margin-left: -0.35rem;
   border-radius: 5rem;
-  animation-duration: 1.5s;
+  animation-duration: 1.6s;
   animation-iteration-count: infinite;
   animation-name: scroll
 }

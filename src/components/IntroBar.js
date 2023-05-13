@@ -22,7 +22,7 @@ function IntroBar(){
         </ul>
       </div>
       <div className="resume">
-        <p>Resume</p>
+        <a style={{color:"white"}} href="https://drive.google.com/file/d/18cVgvHZewaVIPFz7Ni88y-Zyxt5surcy/view?usp=share_link" target="_blank">Resume</a>
       </div>
     </div>
   )

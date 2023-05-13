@@ -24,8 +24,8 @@ function Projects(){
                     <h3>{project.name}</h3>
                   </div>
                   <div className="demo">
-                    <p id='live'><a style={{color:'white'}} href={project.dLink} target="_blank">Live</a><MdOutlineComputer style={{fontSize:"1.6rem",paddingLeft:"0.2rem"}}/></p>
-                    <p id="code"><a style={{color:'black'}} href={project.gLink} target="_blank">Code</a><BsGithub style={{fontSize:"1.6rem",paddingLeft:"0.2rem"}}/></p>
+                    <a id='live' style={{color:'white'}} href={project.dLink} target="_blank">Live<MdOutlineComputer style={{fontSize:"1.6rem",paddingLeft:"0.2rem"}}/></a>
+                    <a id="code" style={{color:'black'}} href={project.gLink} target="_blank">Code<BsGithub style={{fontSize:"1.6rem",paddingLeft:"0.2rem"}}/></a>
                   </div>
                 </div>
               )
